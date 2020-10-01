@@ -1,0 +1,14 @@
+.btn{
+    border: none;
+    background-color: $main-color;
+    color: #000;
+    border-radius:5px;
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: 300;
+    &_small{
+        font-size: 12px;
+        width: 100px;
+    }
+    
+}

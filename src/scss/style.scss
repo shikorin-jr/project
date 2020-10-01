@@ -1,3 +1,5 @@
+@import './base/variables';
+
 * {
     font-family: 'Open Sans';
 }
@@ -6,4 +8,5 @@
     margin: 0 auto;
 }
 
+@import './blocks/buttons';
 @import './blocks/header';
