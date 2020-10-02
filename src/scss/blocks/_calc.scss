@@ -1,11 +1,11 @@
 .calc{
     padding-top: 105px;
-    min-height: 450px;
-
+    min-height: 300px;
     &__calories{
         h2{
             font-weight: 400;
             font-size: 18px;
+            margin: 0;
         }
     }
 }
