@@ -52,9 +52,11 @@
                 <div class="calc__calories">
                     <h2>Рассчет каллорий:</h2>
                     <form action="#" id="calories-form" class="ccal-form">
-                        <div class="btn-group">
-                            <button type="button" class="btn-group_active">Муж</button>
-                            <button type="button" class="btn-group_disabled">Жен</button>
+                        <div class="radio-group radio-group_small">
+                            <input id="radio-group__man"  name="sex" type="radio" value="man" />
+                            <label for="radio-group__man" class="">Муж</label>
+                            <input id="radio-group__woman"  name="sex" type="radio" value="woman" />
+                            <label for="radio-group__woman">Жен</label>
                         </div>
                         
                         <!-- <input name="age" type="text" placeholder="Возраст" required>
