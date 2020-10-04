@@ -1,20 +1,23 @@
 .ccal-form{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     margin-top: 20px;
-    input{
-        border: none;
-        border-bottom: 1px solid $second-color;
+    background-color: $fourth-color;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 170px;
+    &__inform{
+        display: flex;
         margin-top: 10px;
-        background-color: transparent;
-        width: 40%;
-        font-size: 36px;
-        text-align: center;
-        margin: 0 auto;
-        &::placeholder{
-            font-size: 36px;
+        height: 45px;
+        input{
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: $third-color;
             text-align: center;
+            margin: 0 auto;
+            &::placeholder{
+                text-align: center;
+            }
         }
     }
 }
