@@ -7,6 +7,18 @@
     max-width: 950px;
     margin: 0 auto;
 }
+h1{
+    font-size: 14px;
+    color: $third-color;
+    font-weight: 400;
+    margin: 0;
+}
+h2{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: $second-color;
+}
 
 @import './blocks/buttons';
 @import './blocks/header';

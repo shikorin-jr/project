@@ -1,16 +1,16 @@
 .btn{
     border: none;
-    background-color: $main-color;
-    color: #000;
-    padding: 8px;
+    background-color: transparent;
+    color: $main-color;
+    padding: 7px;
     text-transform: uppercase;
     font-weight: 300;
     border-radius:5px;
     &_small{
         font-size: 12px;
-        width: 100px;
     }
     &:hover{
-        background-color:rgba($main-color, $alpha: 0.8)
+        background-color: $main-color;
+        color: $second-color;
     }
 }

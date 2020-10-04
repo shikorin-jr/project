@@ -1,11 +1,9 @@
 .calc{
-    padding-top: 105px;
-    min-height: 300px;
+    padding-top: 115px;
+    min-height: 500px;
+    background-color: $third-color;
     &__calories{
-        h2{
-            font-weight: 400;
-            font-size: 18px;
-            margin: 0;
-        }
+        border-radius: 5px;
+        padding: 20px 20px 80px 20px;
     }
 }

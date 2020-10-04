@@ -1,9 +1,20 @@
 .ccal-form{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
     input{
-        border: 1px solid #777;
-        padding: 10px 20px;
-        border-radius: 5px;
+        border: none;
+        border-bottom: 1px solid $second-color;
+        margin-top: 10px;
+        background-color: transparent;
+        width: 40%;
+        font-size: 36px;
+        text-align: center;
+        margin: 0 auto;
+        &::placeholder{
+            font-size: 36px;
+            text-align: center;
+        }
     }
 }

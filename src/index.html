@@ -12,9 +12,7 @@
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <a class="header__logo">
-                    <span>Count</span>Formula
-                </a>
+                <a class="header__logo">Logo</a>
                 <h1>Рассчитайте калории и делитесь рецептами!</h1>
                 <div class="header__btns">
                     <button class="btn btn_small">Войти</button>
@@ -38,11 +36,11 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="header__social">
+                <!-- <div class="header__social">
                     <a href="#">
                         <img src="./icons/instagram.png" alt="instagram">
                     </a>
-                </div>
+                </div> -->
             </div>  
         </div>
     </header>
@@ -50,18 +48,24 @@
         <div class="container">
             <div class="calc__wrapper">
                 <div class="calc__calories">
-                    <h2>Рассчет каллорий:</h2>
+                    <h2>Рассчет нормы каллорий:</h2>
                     <form action="#" id="calories-form" class="ccal-form">
-                        <div class="radio-group radio-group_small">
-                            <input id="radio-group__man"  name="sex" type="radio" value="man" />
+                        <!-- <div class="radio-group radio-group_small">
+                            <input id="radio-group__man" checked name="sex" type="radio" value="man" />
                             <label for="radio-group__man" class="">Муж</label>
                             <input id="radio-group__woman"  name="sex" type="radio" value="woman" />
                             <label for="radio-group__woman">Жен</label>
+                        </div> -->
+                        <div class="radio-group radio-group_small">
+                            <input id="radio-group__man" checked name="sex" type="radio" value="man" />
+                            <label for="radio-group__man" class="">Мужчина</label>
+                            <input id="radio-group__woman"  name="sex" type="radio" value="woman" />
+                            <label for="radio-group__woman">Женщина</label>
                         </div>
-                        
-                        <!-- <input name="age" type="text" placeholder="Возраст" required>
-                        <input name="weight" type="text" placeholder="Вес" required>
-                        <input name="kfa" type="text" placeholder="КФА" required> -->
+
+                        <input name="age" type="number" placeholder="Возраст" required>
+                        <input name="weight" type="number" placeholder="Вес (кг)" required>
+                        <input name="weight" type="number" placeholder="Вес (кг)" required>
                     </form>
                 </div>
             </div>
