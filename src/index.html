@@ -46,30 +46,42 @@
     </header>
     <section class="calc">
         <div class="container">
-            <div class="calc__wrapper">
-                <div class="calc__calories">
-                    <h2>Рассчет нормы каллорий:</h2>
+            <div class="calc__calories">
+                <h2>Расчет нормы каллорий:</h2>
+                <div class="calc__wrapper">
                     <form action="#" id="calories-form" class="ccal-form">
-                        <!-- <div class="radio-group radio-group_small">
-                            <input id="radio-group__man" checked name="sex" type="radio" value="man" />
-                            <label for="radio-group__man" class="">Муж</label>
-                            <input id="radio-group__woman"  name="sex" type="radio" value="woman" />
-                            <label for="radio-group__woman">Жен</label>
-                        </div> -->
                         <div class="radio-group radio-group_small">
                             <input id="radio-group__man" checked name="sex" type="radio" value="man" />
-                            <label for="radio-group__man" class="">Мужчина</label>
+                            <label for="radio-group__man" >Мужчина</label>
                             <input id="radio-group__woman"  name="sex" type="radio" value="woman" />
                             <label for="radio-group__woman">Женщина</label>
+                        </div>
+                        <div class="radio-group radio-group_small">
+                            <input id="radio-group__vigorous" checked name="kfa" type="radio" value="vigorous" />
+                            <label for="radio-group__vigorous" class="">Энергичный</label>
+                            <input id="radio-group__usual" checked name="kfa" type="radio" value="usual" />
+                            <label for="radio-group__usual" class="">Обычный</label>
+                            <input id="radio-group__sedentary"  name="kfa" type="radio" value="sedentary" />
+                            <label for="radio-group__sedentary">Малоподвижный</label>
                         </div>
                         <div class="ccal-form__inform">
                             <input name="age" type="number" placeholder="Возраст" required>
                             <input name="weight" type="number" placeholder="Вес (кг)" required>
-                            <input name="weight" type="number" placeholder="Вес (кг)" required>
-                        </div>
-                        
+                        </div> 
                         <button class="btn btn_submit">Рассчитать</button>
                     </form>
+                    <div class="calc__list">
+                        <div class="calc__information">
+                            Расчет производится по формуле Всемирной организации здравоохранения.
+                        </div>
+                        <div class="calc__description">
+                            Ваша норма:
+                        </div>
+                        <div class="calc__result">
+                            2000 Kkal
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>

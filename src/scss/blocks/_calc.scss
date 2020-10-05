@@ -1,8 +1,41 @@
 .calc{
-    padding-top: 115px;
-    min-height: 500px;
+    padding: 115px 0 70px 0;
+    min-height: 550px;
     background-color: $third-color;
-    &__calories{
+    &__wrapper{
+        display: flex;
+        margin-top: 20px;
+        background-color: $fourth-color;
         border-radius: 5px;
+        min-height: 310px;
+        overflow: hidden;
+    }
+    &__list{
+        padding: 20px;
+        width: 50%;
+        background-color: $main-color;
+        overflow: hidden;
+    }
+    &__list{
+        color: $second-color;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__information{
+        font-weight: 300;
+    }
+    &__description{
+        font-size: 22px;
+        line-height: 22px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+    &__result{
+        font-size: 80px;
+        line-height: 80px;
+        font-weight: 300;
+        margin-top: 10px;
     }
 }
